@@ -86,13 +86,13 @@ body {
 
 .hero textarea {
     width: 100%;
-    min-height: 220px;
+    min-height: 160px;
     resize: none;
     border: 1px solid var(--border-color);
     border-radius: var(--radius);
     background-color: var(--bg-card);
     color: var(--text-main);
-    padding: 24px;
+    padding: 20px;
     font-size: 1rem;
     font-family: inherit;
     outline: none;
