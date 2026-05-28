@@ -194,3 +194,72 @@ body {
 }
 
 
+/* LETTER DENSITY */
+
+.letter-density {
+    background-color: var(--bg-card);
+    padding: 24px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+}
+
+
+.letter-density h3 {
+    margin-bottom: 24px;
+    font-size: 1.3rem;
+}
+
+
+.density-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+
+.letter {
+    font-weight: 700;
+    width: 20px;
+}
+
+
+.progress-bar {
+    flex: 1;
+    height: 12px;
+    background-color: #2A2D3A;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+
+.progress-fill {
+    height: 100%;
+    background-color: var(--purple);
+    border-radius: 999px;
+}
+
+
+/* WIDTHS */
+
+.fill-e {
+    width: 40%;
+}
+
+.fill-t {
+    width: 25%;
+}
+
+.fill-a {
+    width: 18%;
+}
+
+
+.letter-stats {
+    display: flex;
+    gap: 10px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    min-width: 80px;
+    justify-content: flex-end;
+}
