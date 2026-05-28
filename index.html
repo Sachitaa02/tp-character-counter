@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
         <span>Character Counter</span>
         </div>
 
-        <button class="theme-button">
+        <button class="theme-button" aria-label="Settings">
             ⚙
         </button>
         </header>
@@ -35,7 +35,10 @@
             Analyze your text in real-time.
         </h1>
 
-        <textarea placeholder="Start typing here..."></textarea>
+        <label for="text-input" class="sr-only">
+            Text input
+        </label>
+        <textarea id="text-input" placeholder="Start typing here..."></textarea>
 
         <div class="controls">
 
@@ -67,7 +70,6 @@
         <article class="card purple-card">
 
             <h2>278</h2>
-
             <p>Total Characters</p>
 
         </article>
@@ -76,7 +78,6 @@
         <article class="card orange-card">
 
             <h2>39</h2>
-
             <p>Word Count</p>
 
         </article>
@@ -85,7 +86,6 @@
         <article class="card coral-card">
 
             <h2>12</h2>
-
             <p>Sentence Count</p>
 
         </article>
