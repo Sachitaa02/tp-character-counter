@@ -347,7 +347,7 @@ body {
 
 .progress-bar {
     flex: 1;
-    height: 8px;
+    height: 10px;
     background-color: #2A2D3A;
     border-radius: 999px;
     overflow: hidden;
@@ -364,15 +364,23 @@ body {
 /* WIDTHS */
 
 .fill-e {
-    width: 40%;
+    width: 16.06%;
+}
+
+.fill-i {
+    width: 11.65%;
 }
 
 .fill-t {
-    width: 25%;
+    width: 11.24%;
 }
 
-.fill-a {
-    width: 18%;
+.fill-o {
+    width: 8.84%;
+}
+
+.fill-n {
+    width: 8.43%;
 }
 
 
@@ -400,17 +408,31 @@ body {
 
 
 @media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
+        max-width: 100%;
     }
 
     .controls {
         flex-direction: column;
         align-items: flex-start;
+        gap: 12px;
+    }
+
+    .stats-cards {
+        flex-direction: column;
     }
 
     .card {
         width: 100%;
+    }
+
+    .card h2 {
+        font-size: 3rem;
     }
 
     .density-item {
@@ -418,7 +440,37 @@ body {
     }
 
     .letter-stats {
-        min-width: 60px;
+        min-width: 70px;
         font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 24px 12px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero textarea {
+        padding: 16px;
+        min-height: 140px;
+    }
+
+    .checkbox-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card h2 {
+        font-size: 2.6rem;
+    }
+
+    .theme-button {
+        width: 36px;
+        height: 36px;
     }
 }
