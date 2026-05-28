@@ -68,7 +68,9 @@ body {
 
 
 .theme-button:hover {
-    opacity: 0.8;
+    background-color: var(--purple);
+    color: #12131A;
+    transform: rotate(10deg);
 }
 
 
