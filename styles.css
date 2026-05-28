@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --bg-main: #12131A;
     --bg-card: #1C1F2A;
@@ -20,59 +21,45 @@
     --radius: 16px;
 }
 
+
 body {
     background-color: var(--bg-main);
-
     color: var(--text-main);
-
     font-family: 'Space Grotesk', sans-serif;
-
     min-height: 100vh;
-
     padding: 40px 16px;
 }
 
+
 .container {
     width: 100%;
-
     max-width: 900px;
-
     margin: 0 auto;
 }
 
+
 .header {
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     margin-bottom: 40px;
 }
 
 
 .logo {
     font-size: 1.2rem;
-
     font-weight: 700;
 }
 
 
 .theme-button {
     width: 44px;
-
     height: 44px;
-
     border: none;
-
     border-radius: 12px;
-
     background-color: var(--bg-card);
-
     color: var(--text-main);
-
     cursor: pointer;
-
     transition: 0.3s;
 }
 
@@ -80,3 +67,40 @@ body {
 .theme-button:hover {
     opacity: 0.8;
 }
+
+
+.hero h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 32px;
+}
+
+
+.hero textarea {
+    width: 100%;
+    min-height: 220px;
+    resize: none;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    padding: 24px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+
+.hero textarea::placeholder {
+    color: var(--text-secondary);
+}
+
+
+.hero textarea:focus {
+    border-color: var(--purple);
+}
+
+
