@@ -29,6 +29,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     min-height: 100vh;
     padding: 40px 16px;
+    transition: background-color 0.3s;
 }
 
 
