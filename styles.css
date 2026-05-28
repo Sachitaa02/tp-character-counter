@@ -39,3 +39,44 @@ body {
 
     margin: 0 auto;
 }
+
+.header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+
+.logo {
+    font-size: 1.2rem;
+
+    font-weight: 700;
+}
+
+
+.theme-button {
+    width: 44px;
+
+    height: 44px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background-color: var(--bg-card);
+
+    color: var(--text-main);
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.theme-button:hover {
+    opacity: 0.8;
+}
