@@ -264,3 +264,10 @@ body {
     min-width: 80px;
     justify-content: flex-end;
 }
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+}
