@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-main: #12131A;
+    --bg-card: #1C1F2A;
+
+    --text-main: #F2F2F7;
+    --text-secondary: #B4B7C9;
+
+    --purple: #C99DFF;
+    --orange: #FFB21E;
+    --coral: #FF8A65;
+
+    --border-color: #2A2D3A;
+
+    --radius: 16px;
+}
+
+body {
+    background-color: var(--bg-main);
+
+    color: var(--text-main);
+
+    font-family: 'Space Grotesk', sans-serif;
+
+    min-height: 100vh;
+
+    padding: 40px 16px;
+}
+
+.container {
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
