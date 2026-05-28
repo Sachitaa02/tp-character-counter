@@ -76,10 +76,11 @@ body {
 
 /* HERO SECCION */
 .hero h1 {
-    font-size: 3rem;
+    font-size: 4.2rem;
     text-align: center;
-    line-height: 1.1;
-    margin-bottom: 32px;
+    line-height: 0.95;
+    max-width: 650px;
+    margin: 0 auto 32px;
 }
 
 
